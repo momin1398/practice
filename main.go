@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	n := 6
+	var n int
+	fmt.Scan(&n)
 	if n%2 == 0 {
 		fmt.Println("even")
 	}
