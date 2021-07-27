@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var n int
-	fmt.Scan(&n)
-	if n%2 == 0 {
+	var c int
+	fmt.Scan(&c)
+	if c%2 == 0 {
 		fmt.Println("even")
 	}
 
